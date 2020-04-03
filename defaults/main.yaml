@@ -1,6 +1,6 @@
 ---
 install_ca_certificates_packages:
-  common: &common
+  debian: &debian
     - "ca-certificates"
-  debian_armv7l: *common
-  redhat_x86_64: *common
+  debian_armv7l: *debian
+  debian_x86_64: *debian
